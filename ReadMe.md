@@ -1,6 +1,7 @@
 # CR$^3$: Boosting Compositional Reasoning in MLLMs through Rule-based Reinforcement Learning
 This is the official source code for paper "CR$^3$: Boosting Compositional Reasoning in MLLMs through Rule-based Reinforcement Learning".
-This repository is based on the [VLM-R1](https://github.com/om-ai-lab/VLM-R1) and has been modified and extended according to our task requirements. We have added data processing and training code necessary for compositional reasoning, implemented the `Qwen2VLGRPOTrainerForCompositionality` and `InternVL3Trainer` class to support training Qwen2.5-VL and InternVL3 for compositional reasoning.
+This repository is based on the [VLM-R1](https://github.com/om-ai-lab/VLM-R1) and has been modified and extended according to our task requirements. 
+We have added data processing and training code necessary for compositional reasoning, implemented the `Qwen2VLGRPOTrainerForCompositionality` and `InternVL3Trainer` class to support training Qwen2.5-VL and InternVL3 for compositional reasoning.
 
 
 
