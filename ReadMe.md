@@ -34,6 +34,7 @@ bash run_scripts/train_grpo_internvl3.sh ## train InternVL3 model
 ```
 
 ## Evaluation
+### In-Domain Evaluation
 The model's evaluation on in-domain benchmarks uses the below command:
 
 ```
@@ -42,7 +43,7 @@ python eval/eval_cr_on_qwen.py --model-path /your/model/path --task task-name --
 # evaluate InternVL3 model
 python eval/eval_cr_on_internvl3.py  --model-path /your/model/path --task task-name --device device_id --reason False
 ```
-
+### Out-of-Domain Evaluation
 The model's evaluation on out-of-domain benchmarks is based on the VLMEvalKit library. For evaluation code, please refer to the library's [ReadMe](https://github.com/open-compass/VLMEvalKit).
 
 
